@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Prueba</title>
+</head>
+
+<body>
+    <h1>Inicia sesión</h1>
+    <button id="login">Inicia con google</button>
+
+    <form>
+        <input id="email" type="email" placeholder="ingresa e-mail">
+        <input id="password" type="password" placeholder="ingresa contraseña">
+        <button id="sign-up"> Enviar </button>
+    </form>
+    <div id="root"></div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDdE1ReaIOr_OAGOjc9xglzpZSOCOuSts0",
+            authDomain: "conchita-344a5.firebaseapp.com",
+            databaseURL: "https://conchita-344a5.firebaseio.com",
+            projectId: "conchita-344a5",
+            storageBucket: "conchita-344a5.appspot.com",
+            messagingSenderId: "442852674055"
+        };
+
+        firebase.initializeApp(config);
+    </script>
+    <script type="text/javascript" src="../js/block.js"></script>
+</body>
+
+</html>

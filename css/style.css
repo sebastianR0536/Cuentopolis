@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(255, 255, 255);
+    background-image: url(../assets/img/librojpg.jpg);
+    background-repeat: no-repeat;
+    background-position: center 125px;
+    background-attachment: fixed;
+}
+
+.nav-wrapper,
+.nav-extended,
+footer {
+    background-image: url(../assets/img/rombos.jpg);
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+}
+
+.slider .slides li img {
+    height: 100vh;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 18px;
+}
+
+a,
+.href {
+    color: black;
+    font-size: 40px;
+}
+
+#search-book {
+    color: black;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+::placeholder {
+    color: grey;
+}
+
+body>div.container>div {
+    background-color: white;
+    float: none;
+    margin: auto;
+    width: 95%;
+    position: relative;
+    padding: 3%;
+}
+
+body>div.navbar-fixed>nav>div.nav-content>ul>li>a {
+    color: black;
+    font-size: 20px;
+    background-color: white;
+}
+
+#nav-mobile>li>a,
+body>div.navbar-fixed>nav>div.nav-wrapper>a.button-collapse.right>i,
+body>div.navbar-fixed>nav>div.nav-wrapper>a:nth-child(3)>i {
+    color: black;
+    font-size: 20px;
+    background-color: white;
+}
+
+body>footer>div.container>div>div>p,
+body>footer>div.footer-copyright>div,
+body>footer>div.container>div>div>h5 {
+    color: black;
+    font-size: 20px;
+    background-color: white;
+}
+
+h5,
+h6 {
+    color: black;
+    font-size: 20px;
+    background-color: red;
+    font-weight: bold;
+}

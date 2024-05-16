@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../assets/img/fondo\ encima\ logos.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.loginBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-75%, -25%);
+    width: 350px;
+    height: 500px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: #38B1E5;
+}
+
+.user {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+}
+
+h4 {
+    margin: 0;
+    padding: 0 0 20px;
+    color: black;
+    text-align: center;
+}
+
+.loginBox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+    color: black;
+}
+
+.loginBox input {
+    width: 100%;
+    margin-bottom: 20px;
+    color: black;
+    font-style: bolder;
+}
+
+.loginBox input [type="text"]{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: red;
+    font-size: 20px;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.loginBox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: #ff267e;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+button {
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background: #ff267e;
+    cursor: pointer;
+    border-radius: 12px;
+    width: 100%;
+}
+
+.loginBox input[type="submit"]:hover {
+    background: black;
+    color: black;
+}
+
+.loginBox a {
+    color: black;
+    font-size: 15px;
+}
+
+.modal {
+    background: black;
+}
